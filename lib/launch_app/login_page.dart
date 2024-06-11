@@ -1,3 +1,5 @@
+import 'package:final_project_quickregist/launch_app/register_penyelenggara_page.dart';
+import 'package:final_project_quickregist/launch_app/register_peserta_page.dart';
 import 'package:flutter/material.dart';
 import 'package:tes/admin/admin.dart';
 import 'package:tes/penyelenggara/halaman_penyelenggara.dart';
