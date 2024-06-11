@@ -148,7 +148,7 @@ class _LoginPageState extends State<LoginPage> {
                   _selectedUserType = value!;
                 });
               },
-              decoration: InputDecoration(labelText: 'User Type'),
+              decoration: InputDecoration(labelText: 'Tipe User'),
             ),
             SizedBox(height: 20),
             ElevatedButton(
