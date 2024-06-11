@@ -1,5 +1,5 @@
+import 'package:final_project_quickregist/pendaftaranModel.dart';
 import 'package:flutter/material.dart';
-import '../models/pendaftaran.dart';
 
 class PendaftaranItem extends StatelessWidget {
   final Pendaftaran pendaftaran;

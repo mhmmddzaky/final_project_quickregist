@@ -1,7 +1,7 @@
+import 'package:final_project_quickregist/LombaModel.dart';
+import 'package:final_project_quickregist/riwayat_lomba_page.dart';
+import 'package:final_project_quickregist/tambah_lomba_page.dart';
 import 'package:flutter/material.dart';
-import 'package:tes/penyelenggara/LombaModel.dart';
-import 'package:tes/penyelenggara/riwayat_lomba_page.dart';
-import 'package:tes/penyelenggara/tambah_lomba_page.dart';
 
 class MyApp extends StatelessWidget {
   @override

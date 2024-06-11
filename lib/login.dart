@@ -1,7 +1,7 @@
+import 'package:final_project_quickregist/admin.dart';
+import 'package:final_project_quickregist/halaman_penyelenggara.dart';
+import 'package:final_project_quickregist/infoLomba.dart';
 import 'package:flutter/material.dart';
-import 'package:tes/admin/admin.dart';
-import 'package:tes/penyelenggara/halaman_penyelenggara.dart';
-import 'package:tes/peserta/infoLomba.dart';
 import 'register_peserta.dart';
 import 'register_penyelenggara.dart';
 

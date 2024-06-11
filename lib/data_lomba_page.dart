@@ -1,6 +1,6 @@
+import 'package:final_project_quickregist/Lomba_Model.dart';
+import 'package:final_project_quickregist/lomba_item.dart';
 import 'package:flutter/material.dart';
-import '../models/lomba.dart';
-import '../widgets/lomba_item.dart';
 
 class DataLombaPage extends StatefulWidget {
   @override

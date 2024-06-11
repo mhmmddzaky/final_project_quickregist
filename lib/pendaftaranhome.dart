@@ -1,5 +1,5 @@
+import 'package:final_project_quickregist/infoLomba.dart';
 import 'package:flutter/material.dart';
-import 'package:tes/peserta/infoLomba.dart';
 
 class MyApp extends StatelessWidget {
   @override

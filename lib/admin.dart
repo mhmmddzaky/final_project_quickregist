@@ -1,6 +1,6 @@
+import 'package:final_project_quickregist/data_lomba_page.dart';
+import 'package:final_project_quickregist/data_pendaftaran_page.dart';
 import 'package:flutter/material.dart';
-import 'package:tes/admin/pages/data_lomba_page.dart';
-import 'package:tes/admin/pages/data_pendaftaran_page.dart';
 
 class MyApp extends StatelessWidget {
   @override
