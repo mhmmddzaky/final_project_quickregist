@@ -1,5 +1,5 @@
+import 'package:final_project_quickregist/login_page.dart';
 import 'package:flutter/material.dart';
-import 'login.dart';
 
 void main() {
   runApp(MyApp());
