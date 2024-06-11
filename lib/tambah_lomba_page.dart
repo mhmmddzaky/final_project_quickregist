@@ -1,5 +1,5 @@
+import 'package:final_project_quickregist/LombaModel.dart';
 import 'package:flutter/material.dart';
-import 'package:tes/penyelenggara/LombaModel.dart';
 
 class TambahLombaPage extends StatefulWidget {
   final Function(Lomba) addLomba;

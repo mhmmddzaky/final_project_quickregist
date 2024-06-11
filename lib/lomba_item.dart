@@ -1,5 +1,5 @@
+import 'package:final_project_quickregist/Lomba_Model.dart';
 import 'package:flutter/material.dart';
-import '../models/lomba.dart';
 
 class LombaItem extends StatelessWidget {
   final Lomba lomba;

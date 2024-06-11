@@ -1,6 +1,6 @@
+import 'package:final_project_quickregist/pendaftaranModel.dart';
+import 'package:final_project_quickregist/pendaftaran_item.dart';
 import 'package:flutter/material.dart';
-import '../models/pendaftaran.dart';
-import '../widgets/pendaftaran_item.dart';
 
 class DataPendaftaranPage extends StatefulWidget {
   @override
