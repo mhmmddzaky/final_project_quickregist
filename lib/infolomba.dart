@@ -1,10 +1,10 @@
 import 'dart:convert';
+import 'package:final_project_quickregist/konstanta.dart';
+import 'package:final_project_quickregist/login.dart';
+import 'package:final_project_quickregist/pendaftaranhome.dart';
+import 'package:final_project_quickregist/riwayatpendaftaran.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:tes_lagi/konstanta.dart';
-import 'package:tes_lagi/login.dart';
-import 'package:tes_lagi/pendaftaranhome.dart';
-import 'package:tes_lagi/riwayatpendaftaran.dart';
 
 class InfoLombaPage extends StatefulWidget {
   @override
