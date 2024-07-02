@@ -1,9 +1,9 @@
 import 'dart:convert';
+import 'package:final_project_quickregist/konstanta.dart';
+import 'package:final_project_quickregist/login.dart';
+import 'package:final_project_quickregist/riwayatlomba.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:tes_lagi/konstanta.dart';
-import 'package:tes_lagi/login.dart';
-import 'package:tes_lagi/riwayatlomba.dart';
 
 class TambahLombaPage extends StatefulWidget {
   @override

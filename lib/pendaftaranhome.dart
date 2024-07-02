@@ -1,6 +1,6 @@
+import 'package:final_project_quickregist/konstanta.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:tes_lagi/konstanta.dart';
 
 class PendaftaranPage extends StatefulWidget {
   final Map<String, dynamic> lombaData;

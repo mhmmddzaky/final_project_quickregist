@@ -1,9 +1,9 @@
+import 'package:final_project_quickregist/detailpendaftaran.dart';
+import 'package:final_project_quickregist/konstanta.dart';
+import 'package:final_project_quickregist/login.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:tes_lagi/detailpendaftaran.dart';
-import 'package:tes_lagi/konstanta.dart';
-import 'package:tes_lagi/login.dart';
 
 class DetailLombaPage extends StatefulWidget {
   @override

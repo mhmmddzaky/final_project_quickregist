@@ -1,9 +1,9 @@
 import 'dart:convert';
+import 'package:final_project_quickregist/detaillomba.dart';
+import 'package:final_project_quickregist/infolomba.dart';
+import 'package:final_project_quickregist/konstanta.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:tes_lagi/detaillomba.dart';
-import 'package:tes_lagi/infolomba.dart';
-import 'package:tes_lagi/konstanta.dart';
 import 'register.dart';
 import 'tambahlomba.dart';
 
