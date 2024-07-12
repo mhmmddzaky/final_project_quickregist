@@ -3,6 +3,7 @@ import 'package:final_project_quickregist/konstanta.dart';
 import 'package:final_project_quickregist/login.dart';
 import 'package:final_project_quickregist/riwayatlomba.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:http/http.dart' as http;
 
 class TambahLombaPage extends StatefulWidget {
@@ -80,7 +81,7 @@ class _TambahLombaPageState extends State<TambahLombaPage> {
       'biaya_lomba': _biayaLombaController.text,
     };
 
-    var url = Uri.parse('http://localhost/PendaftaranLomba/public/lomba');
+    var url = Uri.parse(baseUrl + "/lomba");
 
     try {
       var response = await http.post(url, body: data);
@@ -227,6 +228,21 @@ class _TambahLombaPageState extends State<TambahLombaPage> {
                   }
                   return null;
                 },
+                onTap: () async {
+                  DateTime? pickedDate = await showDatePicker(
+                    context: context,
+                    initialDate: DateTime.now(),
+                    firstDate: DateTime(2000),
+                    lastDate: DateTime(2101),
+                  );
+
+                  if (pickedDate != null) {
+                    String formattedDate =
+                        DateFormat('yyyy-MM-dd').format(pickedDate);
+                    _tanggalPelaksanaanController.text = formattedDate;
+                  }
+                },
+                readOnly: true,
               ),
               SizedBox(height: 16),
               TextFormField(
@@ -243,6 +259,20 @@ class _TambahLombaPageState extends State<TambahLombaPage> {
                   }
                   return null;
                 },
+                onTap: () async {
+                  TimeOfDay? pickedTime = await showTimePicker(
+                    context: context,
+                    initialTime: TimeOfDay.now(),
+                  );
+
+                  if (pickedTime != null) {
+                    final localizations = MaterialLocalizations.of(context);
+                    final formattedTime =
+                        localizations.formatTimeOfDay(pickedTime);
+                    _jamPelaksanaanController.text = formattedTime;
+                  }
+                },
+                readOnly: true,
               ),
               SizedBox(height: 16),
               TextFormField(
